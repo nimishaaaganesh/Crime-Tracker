@@ -1,0 +1,6 @@
+@crmsapi_HostAddress = http://localhost:5051
+
+GET {{crmsapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
