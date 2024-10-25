@@ -2750,19 +2750,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/anoobsuresh/.nuget/packages/": {}
+    "C:\\Users\\NimishaGanesh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/anoobsuresh/Desktop/useless/Crime-Tracker/crmsapi/crmsapi.csproj",
+      "projectUniqueName": "C:\\Users\\NimishaGanesh\\Desktop\\CRMSEdited\\crmsapi\\crmsapi.csproj",
       "projectName": "crmsapi",
-      "projectPath": "/Users/anoobsuresh/Desktop/useless/Crime-Tracker/crmsapi/crmsapi.csproj",
-      "packagesPath": "/Users/anoobsuresh/.nuget/packages/",
-      "outputPath": "/Users/anoobsuresh/Desktop/useless/Crime-Tracker/crmsapi/obj/",
+      "projectPath": "C:\\Users\\NimishaGanesh\\Desktop\\CRMSEdited\\crmsapi\\crmsapi.csproj",
+      "packagesPath": "C:\\Users\\NimishaGanesh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NimishaGanesh\\Desktop\\CRMSEdited\\crmsapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/anoobsuresh/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\NimishaGanesh\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2833,7 +2833,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

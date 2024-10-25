@@ -30,7 +30,7 @@ namespace crmsapi.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ArrestID"));
 
                     b.Property<DateTime>("ArrestDate")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<int>("ArrestingOfficerID")
                         .HasColumnType("integer");
@@ -83,7 +83,7 @@ namespace crmsapi.Migrations
                         .HasColumnType("text");
 
                     b.Property<DateTime>("FiledDate")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<int>("OfficerInChargeID")
                         .HasColumnType("integer");
@@ -118,10 +118,10 @@ namespace crmsapi.Migrations
                         .HasColumnType("text");
 
                     b.Property<DateTime>("DOB")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<DateTime>("DateAdded")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
@@ -165,7 +165,7 @@ namespace crmsapi.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("OfficerId"));
 
                     b.Property<DateTime>("DateJoined")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<string>("Email")
                         .IsRequired()
